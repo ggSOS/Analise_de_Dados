@@ -9,7 +9,7 @@ st.set_page_config(
 )
 st.sidebar.markdown("Desenvolvido por Gustavo Gouvêa Soares *ggsgustavoggs@gmail.com*")
 
-st.image("Geral\eu.jpg", width=150)
+st.image("Geral\\eu.jpg", width=150)
 st.write("# Gustavo Gouvêa Soares")
 col1, col2 = st.columns(2)
 col1.divider()
