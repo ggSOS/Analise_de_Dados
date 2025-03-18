@@ -26,7 +26,7 @@ def plot_distribution(x, y, title, xlabel, ylabel):
     st.plotly_chart(fig)
 
 if "df_puro" not in st.session_state:
-    df = pd.read_csv("Geral\CP4-Banco.csv", index_col=False)
+    df = pd.read_csv("Geral/CP4-Banco.csv", index_col=False)
     st.session_state["df_puro"] = df
 
 if "df_diretoriasXPerguntas" not in st.session_state:
